@@ -1,0 +1,88 @@
+/* header.css */
+
+.header {
+    background-color: #fff;
+    padding: 0.5rem 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    transition: all 0.3s ease;
+  }
+  
+  .sticky__header {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  .nav__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .menu {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+  }
+  
+  .nav__item {
+    position: relative;
+  }
+  
+  .nav__item a {
+    text-decoration: none;
+    color: #333;
+    font-size: 1rem;
+    transition: color 0.3s ease;
+  }
+  
+  .nav__item a:hover,
+  .nav__item a.active__link {
+    color: var(--primary-color);
+  }
+  
+  .nav__right {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+  
+  .user-info {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  
+  .user-info span {
+    font-size: 1rem;
+    color: #333;
+  }
+  
+  .btn {
+    background-color: var(--primary-color);
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn:hover {
+    background-color: var(--primary-color-dark);
+  }
+  
+  .primary__btn {
+    background-color: var(--primary-color);
+  }
+  
+  .secondary__btn {
+    background-color: var(--secondary-color);
+  }
+  
+  .nav__btns a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
